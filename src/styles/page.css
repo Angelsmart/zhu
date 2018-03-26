@@ -1,0 +1,120 @@
+@media screen and (min-width: 1200px){
+
+	.fast  {
+				width: 100%;
+				height: 177px;
+				margin-top: 8px;
+				display: flex;
+			}	
+	.fast li{
+			  width: 329px;
+			  height: 167px;
+			  flex:1;
+			  position: relative;
+	        }
+	.fast li img{
+	          	height: 167px;
+	          	outline: 1px solid #eee;
+	          }
+	.fast li .fa{
+	          	width: 329px;
+	          	height: 167px;
+	          	background-color: black;
+	          	opacity: 0.3;
+	          	position: absolute;
+	            left: 0;
+	          	top:0;
+	          	display: none;
+	          }
+			
+	.fast li:hover .fa{
+	          	 display: block;
+	          }
+}
+
+@media (min-width: 998px) and (max-width: 1199px){
+     .fast  {
+				width: 100%;
+				height: 482px;
+				margin-top: 8px;
+			}	
+	.fast li{
+			  width: 50%;
+			  height: 241px;
+			  float: left;
+			  position: relative;
+	        }
+	.fast li img{
+		        width: 476px;
+	          	height: 241px;
+	          	float: right;
+	          	outline: 1px solid #eee;
+	          }
+	.fast li .fa{
+	          	width: 476px;
+	          	height: 241px;
+	          	background-color: black;
+	          	opacity: 0.3;
+	          	position: absolute;
+	            right: 0;
+	          	top:0;
+	          	display: none;
+	          }
+			
+	.fast li:hover .fa{
+	          	 display: block;
+	          }
+}
+@media (min-width: 768px) and (max-width: 997px){
+      .fast  {
+				width: 100%;
+				height: 482px;
+				margin-top: 8px;
+			}	
+	.fast li{
+			  width: 50%;
+			  height: 241px;
+			  float: left;
+			  position: relative;
+	        }
+	.fast li img{
+		        width: 390px;
+	          	height: 197px;
+	          	float: right;
+	          	outline: 1px solid #eee;
+	          }
+	.fast li .fa{
+	          	width: 390px;
+	          	height: 197px;
+	          	background-color: black;
+	          	opacity: 0.3;
+	          	position: absolute;
+	            right: 0;
+	          	top:0;
+	          	display: none;
+	          }
+			
+	.fast li:hover .fa{
+	          	 display: block;
+	          }
+}
+@media screen and (max-width: 767px){
+    .fast  {
+				width: 100%;
+				height: 800px;
+				margin-top: 8px;
+			}	
+	.fast li{
+			  width: 100%;
+			  height: 203px;
+			  position: relative;
+	        }
+	.fast li img{
+		        width: 390px;
+	          	height: 197px;
+	          	display: block;
+                margin: 0 auto;
+	          	outline: 1px solid #eee;
+	          }
+}	
+        

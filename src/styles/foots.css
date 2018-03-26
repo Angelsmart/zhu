@@ -1,0 +1,13 @@
+.foots{
+		padding: 50px 17px 20px 10px;
+	    text-align: center;
+	    color: #999999;
+	    font-size: 14px;
+	}
+.tel{
+        background: url(../images/phone-icon.png) no-repeat scroll -160px -84px;
+        padding: 4px 0 2px 30px;
+	 }
+p{
+	padding-bottom: 10px;
+	 }
